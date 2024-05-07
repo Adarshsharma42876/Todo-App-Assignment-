@@ -1,32 +1,62 @@
-# Getting Started with Create React App
 
--Clone the repository to your local machine using the following command:
-  -git clone <repository-url>
-  -Alternatively, you can download the repository as a ZIP file and extract it.
-   Navigate to the project directory:
+Creating a task for a fresher candidate aspiring to join as a ReactJS Developer involves designing challenges that test their understanding of foundational web technologies (HTML, CSS, JavaScript) and essential React concepts. Given your requirements, here's a structured task that can help evaluate the candidate's skills effectively:
 
--cd todo-app
-    Install dependencies using npm or yarn:
+Task Title: Develop an Advanced React To-Do Application with API Integration
 
--Inoreder to install dependencies
-  -npm install
+Objective: Enhance the basic To-Do application by integrating external API data, implementing advanced state management using Redux, and ensuring the application is responsive and user-friendly across different devices.
 
-or
+Requirements:
 
-yarn install
-Running the Application:
+Frontend Development And API Integration:
+Utilize HTML to structure the application's layout.
+Use CSS for styling the application. Feel free to use CSS frameworks like Bootstrap or Material-UI for design components.
+Implement the application logic using JavaScript (ES6 or later).
+Integrate with a public API (e.g., a weather API) to display data relevant to the tasks. For example, if a task is related to an outdoor activity, show the current weather conditions.
+Implement error handling for the API requests to manage and display errors gracefully in the UI.
 
-Once the installation is complete, you can run the application using the following steps:
+React Components And Advanced State Management::
+Develop the application using functional components and demonstrate the use of React hooks (e.g., `useState`, `useEffect`).
+The application should have at least two components:    
+TaskInput: A component for adding a new task.
+TaskList: A component for displaying the list of tasks.
+Use Redux Thunk or Redux Saga for handling asynchronous actions (e.g., API calls).
+Use Redux Thunk or Redux Saga for handling asynchronous actions (e.g., API calls).
 
-Start the development server:
 
--npm start
 
-This command will start the development server and open the application in your default web browser.
-You can now use the Todo application to add, delete, and toggle tasks.
-Building the Application:
+Responsive Design: 
+Ensure the application is fully responsive and provides an excellent user experience on mobile, tablet, and desktop devices. Use CSS Grid and Flexbox to achieve responsiveness.
+Implement a mobile-first design approach..
 
-To build the application for production, use the following command:
 
-npm run build
-This command will create an optimized production build of the application in the build folder.
+Functionality:
+Add Task: Users should be able to input a task into a text field and add it to the list by pressing a button or pressing Enter.
+View Tasks: Display all added tasks in a list format.
+Delete Task: Each task should have a delete button that, when clicked, removes the task from the list.
+Task Prioritization: Allow users to set priorities for tasks (e.g., High, Medium, Low) and display them accordingly.
+Persistent Storage: Use local storage or session storage to save tasks and authentication status, ensuring data persistence across browser sessions.
+User Authentication:
+Add a simple user authentication feature (login/logout functionality) that simulates the process using Redux for state management. There's no need to integrate with a backend; you can mock the authentication process.
+Protect the To-Do list behind authentication, ensuring that tasks are only visible to logged-in users.
+Additional Instructions:
+Follow best practices for organizing your project structure, especially as it grows in complexity with these new features. 
+Prioritize clean code and maintainability, making sure your application is scalable.
+
+Submission Guidelines:
+Submit your project as a GitHub repository link with a detailed README on setup and running instructions. Include screenshots and a brief overview of the features implemented. 
+Deploy your application using a free hosting service (e.g., Netlify, Vercel, GitHub Pages) and provide the live site URL for immediate access and testing.
+Submit your project via this form:    
+https://docs.google.com/forms/d/e/1FAIpQLSeQ-9PffLbFkzTFfNNv6SqmlyKhV8OT5TJVkPiHBOq9G1-YTQ/viewform
+
+Evaluation Criteria:
+Completeness: All required features are implemented and work as expected. 
+Code Quality and Organization: The code is well-structured, commented, and follows React best practices. 
+Design and User Experience: The application is responsive, visually appealing, and user-friendly across devices. 
+Technical Proficiency: Demonstrates advanced knowledge in React, Redux, and external API integration.
+
+
+This enhanced task is designed to challenge the candidate's skills further while remaining achievable within a 2-day deadline. It requires a strong understanding of React and Redux, the ability to work with APIs, and the application of responsive design principles, providing a comprehensive assessment of the candidate's capabilities. You will be provided with a maximum of 48 hours to complete this task after which your application will automatically be canceled.
+
+CONTACT
+
+Please feel free to contact us in case you have any questions regarding anything about this internship at hr.quadbtech@gmail.com. Please put “React JS Internship” as the email subject so that we can filter out your submission/question before anything else.
