@@ -1,0 +1,29 @@
+.add-todo{
+ 
+    display: flex;
+    justify-content: center;
+}
+.user-input-container{
+    margin: 10px;
+}
+.user-input{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid rgba(157, 117, 231, 0.564);
+}
+.user-input:hover{
+    border: 2px solid rgb(219, 145, 48);
+}
+.add-btn{
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(117, 231, 136);
+    background-color: rgba(28, 201, 187, 0.607);
+}
+.add-btn:hover{
+    cursor: pointer;
+    border: 2px solid rgb(219, 145, 48);
+}

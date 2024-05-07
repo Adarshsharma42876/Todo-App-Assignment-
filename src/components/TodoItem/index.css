@@ -1,0 +1,60 @@
+.todo-item {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+  }
+.title {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+.delete-btn {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+.check-box:hover{
+    border: 2px solid black;
+    cursor:pointer;
+ }
+ .check-box{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+ }
+
+ .todo-item-completed{
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: line-through;
+ }
+ .delete-btn:hover{
+    cursor: pointer;
+    border: 2px solid #ff0b37;
+    color: #ff0b37;
+ }
+ @media screen and (min-width: 768px) {
+    .title {
+      font-size: 24px;
+    }
+    .delete-btn {
+      font-size: 18px;
+      padding: 8px 16px 8px 16px;
+      margin-left: 32px;
+    }
+  }
